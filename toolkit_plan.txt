@@ -1,0 +1,53 @@
+PERSONAL MINI-TOOLKIT - PLAN
+============================
+
+1. TOOLS I CHOSE
+----------------
+1. Number Guessing Game
+2. To-Do List
+3. Simple Calculator
+4. Name Formatter
+
+2. WHAT EACH TOOL DOES (one sentence each)
+------------------------------------------
+1. Number Guessing Game: The computer picks a secret number from 1 to 20 and
+   the user keeps guessing, getting "too high" or "too low" hints, until they
+   find it or give up.
+2. To-Do List: The user can add tasks, view all tasks, and remove finished
+   tasks from a list that stays saved while the program is running.
+3. Simple Calculator: The user enters two numbers and an operation (+, -, *, /)
+   and the program shows the result.
+4. Name Formatter: The user types their name and the program shows it in
+   neat capitalisation, in capital letters, as initials, and with its length.
+
+3. EXACT MENU TEXT
+------------------
+==============================
+   PERSONAL MINI-TOOLKIT
+==============================
+1. Number Guessing Game
+2. To-Do List
+3. Simple Calculator
+4. Name Formatter
+5. Quit
+------------------------------
+Choose an option (1-5):
+
+Welcome message : "Welcome to your Personal Mini-Toolkit!"
+Invalid choice  : "Oops! 'x' is not on the menu. Please choose a number from 1 to 5."
+Goodbye message : "Thanks for using the toolkit. Goodbye!"
+
+4. CONCEPTS EACH TOOL USES
+--------------------------
+Main menu    : while loop (repeats until Quit), if / elif / else routing,
+               f-strings for messages.
+Guessing Game: while loop (keeps asking for guesses), if / elif / else
+               (too low / too high / correct), counter variable for attempts,
+               random number, f-strings.
+To-Do List   : LIST that changes while the program runs (append, pop),
+               while loop for the to-do sub-menu, for loop with enumerate to
+               print numbered tasks, if / elif / else, f-strings.
+Calculator   : if / elif / else to pick the operation, check for division by
+               zero, try / except to catch non-number input, f-strings.
+Name Formatter: string methods (strip, title, upper, split), for loop to build
+               initials, if / else to catch an empty name, f-strings.
